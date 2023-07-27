@@ -1,0 +1,56 @@
+echo "---- Process Start -------"
+
+cat << EOF > index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Popoq Page</title>
+  <style>
+    /* CSS styles for the page */
+    body {
+      background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      color: #3366cc;
+    }
+    p {
+      color: #333333;
+    }
+    .icon {
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to My Simple Web Page!</h1>
+  
+  <p>This is a basic HTML web page that includes colors, pictures, and icons.</p>
+  
+  <h2>Colors</h2>
+  <p>Here's some text in different colors:</p>
+  <p style="color: red;">Red Text</p>
+  <p style="color: green;">Green Text</p>
+  <p style="color: blue;">Blue Text</p>
+  
+  <h2>Pictures</h2>
+  <p>Here's an example picture:</p>
+  <img src="https://via.placeholder.com/300" alt="Example Picture">
+  
+  <h2>Icons</h2>
+  <p>Here are some sample icons:</p>
+  <img class="icon" src="https://via.placeholder.com/50" alt="Icon 1">
+  <img class="icon" src="https://via.placeholder.com/50" alt="Icon 2">
+  <img class="icon" src="https://via.placeholder.com/50" alt="Icon 3">
+  
+</body>
+</html>
+EOF
+echo "---- Process Finished -------"
+
+
